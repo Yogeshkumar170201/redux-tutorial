@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.first p{
+    font-size: 50px;
+}
+
+.second input{
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(212, 220, 174);
+    
+}
+
+.second button{
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(212, 220, 174);
+    font-size: 20px;
+}
